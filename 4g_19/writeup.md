@@ -29,8 +29,6 @@ flag{3x3cu74bl3_4nd_l1nk4bl3_f0rm47}
 .bss
 ```
 
-<img src="hogehoge.png" alt="output_flag">
-
 ## Crypto
 ### solfa music 
 
