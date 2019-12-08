@@ -1,5 +1,6 @@
 # CTF4Girls 2019/12/07 Write Up
 
+クイズ形式CTFでCrypto,Binary,Web,Forensic,
 問題のスコアがうる覚えで申し訳ない...
 
 ## Binary
