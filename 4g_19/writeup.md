@@ -2,6 +2,7 @@
 
 クイズ形式CTFでCrypto,Binary,Web,Forensic,Networkの計5ジャンルからそれぞれ3問ずつ出題された.
 筆者は初参戦で,問題を全てダウンロードし損ねてしまった...orz
+問題の名前も曖昧なので,問題名も違う気がする
 flagの形式はflag{...}.
 
 因みに,参戦環境は以下となっている.
@@ -43,4 +44,15 @@ D1 M3 S1 D4 L3 M1 M4 R1 F1 R3 D1 D4 M4 R1 D3 L3 F1 F3 T3 F1 R1 R3 </br >
 - 'Solfa Cipher Secrets'
 https://www.wmich.edu/mus-theo/solfa-cipher/secrets/
 
+# Network
+
+### Transfer(100)
+
+- strings Transfer.pcapngでflagが得られる.
+
+```
+flag{W1nI0-FtP}
+```
+
 ### 
+
