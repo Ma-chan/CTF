@@ -18,6 +18,17 @@ flagの形式はflag{...}.
 
 - stringsコマンドでflagが出てくる.
 
+```
+$ strings symbol
+flag{3x3cu74bl3_4nd_l1nk4bl3_f0rm47}
+.symtab
+.strtab
+.shstrtab
+.text
+.data
+.bss
+```
+
 <img src="hogehoge.png" alt="output_flag">
 
 ## Crypto
@@ -51,6 +62,7 @@ https://www.wmich.edu/mus-theo/solfa-cipher/secrets/
 - strings Transfer.pcapngでflagが得られる.
 
 ```
+$ strings Transfer.pcapng
 flag{W1nI0-FtP}
 ```
 
