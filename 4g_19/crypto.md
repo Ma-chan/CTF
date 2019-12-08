@@ -7,8 +7,8 @@
 - 楽譜のコードの暗号文を復元した文がflagとなっている.
 - 個人的に一番好きな問題
 
-T  H    E    F   L    A   G    I    S   C   T   F   G    I    R   L   S   M   U  S  I    C <br \>
-D1 M3 S1 D4 L3 M1 M4 R1 F1 R3 D1 D4 M4 R1 D3 L3 F1 F3 T3 F1 R1 R3 <br \>
+T  H    E    F   L    A   G    I    S   C   T   F   G    I    R   L   S   M   U  S  I    C </br>
+D1 M3 S1 D4 L3 M1 M4 R1 F1 R3 D1 D4 M4 R1 D3 L3 F1 F3 T3 F1 R1 R3 </br >
 
 問題画像(solfa_music)
 
