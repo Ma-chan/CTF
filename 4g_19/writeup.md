@@ -4,11 +4,20 @@
 筆者は初参戦で,問題を全てダウンロードし損ねてしまった...orz
 flagの形式はflag{...}.
 
+因みに,参戦環境は以下となっている.
+
+- Ubuntu (64bit)
+- Windows 10 (64bit)
+- Kali-Linux Debian (32bit)
+
+他の参戦者は,UbuntuとKaliが多かった気がする.
+
 ## Binary
 ### symbol(100)
 
 - stringsコマンドでflagが出てくる.
 
+<img src="スクリーンショット 2019-12-08 15.21.07.png",alt="output_flag">
 
 ## Crypto
 ### solfa music 
