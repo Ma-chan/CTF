@@ -7,9 +7,6 @@
 - 楽譜のコードの暗号文を復元した文がflagとなっている.
 - 個人的に一番好きな問題
 
-T  H    E    F   L    A   G    I    S   C   T   F   G    I    R   L   S   M   U  S  I    C </br>
-D1 M3 S1 D4 L3 M1 M4 R1 F1 R3 D1 D4 M4 R1 D3 L3 F1 F3 T3 F1 R1 R3 </br >
-
 問題画像(solfa_music)
 
 <img src="solfa.png" alt="solfa_music">
@@ -18,7 +15,10 @@ D1 M3 S1 D4 L3 M1 M4 R1 F1 R3 D1 D4 M4 R1 D3 L3 F1 F3 T3 F1 R1 R3 </br >
 
 <img src="hoge.png" alt="encrypto_decrypto">
 
+上の楽譜のコードに上の表を使って,復元を行うとflagが得られる.
 
+T  H    E    F   L    A   G    I    S   C   T   F   G    I    R   L   S   M   U  S  I    C </br>
+D1 M3 S1 D4 L3 M1 M4 R1 F1 R3 D1 D4 M4 R1 D3 L3 F1 F3 T3 F1 R1 R3 </br >
 下記のサイトが本問題を解く上で,とても参考になった.
 
 - 'Solfa Cipher Secrets'
