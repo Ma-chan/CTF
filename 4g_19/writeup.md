@@ -1,5 +1,13 @@
 # CTF4Girls 2019/12/07 Write Up
 
+問題のスコアがうる覚えで申し訳ない...
+
+## Binary
+### symbol(100)
+
+- stringsコマンドでflagが出てくる.
+
+
 ## Crypto
 ### solfa music 
 
