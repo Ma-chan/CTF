@@ -17,7 +17,7 @@ flagの形式はflag{...}.
 
 - stringsコマンドでflagが出てくる.
 
-<img src="スクリーンショット 2019-12-08 15.21.07.png",alt="output_flag">
+<img src="hogehoge.png",alt="output_flag">
 
 ## Crypto
 ### solfa music 
