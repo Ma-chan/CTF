@@ -1,7 +1,8 @@
 # CTF4Girls 2019/12/07 Write Up
 
-クイズ形式CTFでCrypto,Binary,Web,Forensic,
-問題のスコアがうる覚えで申し訳ない...
+クイズ形式CTFでCrypto,Binary,Web,Forensic,Networkの計5ジャンルからそれぞれ3問ずつ出題された.
+筆者は初参戦で,問題を全てダウンロードし損ねてしまった...orz
+flagの形式はflag{...}.
 
 ## Binary
 ### symbol(100)
