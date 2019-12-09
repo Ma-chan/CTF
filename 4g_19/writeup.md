@@ -1,9 +1,10 @@
-# CTF4Girls 2019/12/07 Write Up
+# CTF4Girls 2019/12/07 Write Up(と言う名の復習)
 
 クイズ形式CTFでCrypto,Binary,Web,Forensic,Networkの計5ジャンルからそれぞれ3問ずつ出題された.
 筆者は初参戦で,問題を全てダウンロードし損ねてしまった...orz
 問題の名前も曖昧なので,問題名も違う気がする
 flagの形式はflag{...}.
+WebとNetwork以外の問題を振り返ってみる.
 
 因みに,参戦環境は以下となっている.
 
