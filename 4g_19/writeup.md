@@ -34,7 +34,13 @@ widowsで実行できる形式の
 
 
 ## Crypto
-### solfa music 
+
+### 名前忘れた(100)
+
+- rails cipherを用いた暗号の問題
+- 暗号化したflagが渡され,rails cipherを使って暗号文を復元させる問題
+
+### solfa music(200) 
 
 - solfa cipherを用いた暗号の問題.
 - 楽譜のコードの暗号文を復元した文がflagとなっている.
