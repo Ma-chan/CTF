@@ -29,6 +29,9 @@ flag{3x3cu74bl3_4nd_l1nk4bl3_f0rm47}
 .data
 .bss
 ```
+## hidden message(300)
+widowsで実行できる形式の
+
 
 ## Crypto
 ### solfa music 
