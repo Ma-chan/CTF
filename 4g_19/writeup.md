@@ -37,7 +37,7 @@ widowsで実行できる形式の
 
 ### 名前忘れた(100)
 
-- rails cipherを用いた暗号の問題
+- rail cipherを用いた暗号の問題
 - 暗号化したflagが渡され,rails cipherを使って暗号文を復元させる問題
 
 ### solfa music(200) 
