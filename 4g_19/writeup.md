@@ -38,7 +38,13 @@ widowsで実行できる形式の
 ### 名前忘れた(100)
 
 - rail cipherを用いた暗号の問題
-- 暗号化したflagが渡され,rails cipherを使って暗号文を復元させる問題
+- 暗号化したflagが渡され,rail fence cipherを使って暗号文を復元させる問題
+```
+f{zc3lgz64_1hra16p}
+```
+Rail fence cipherで復元すると,
+flag{z16z46_c1ph3r}
+でflagが取れた.
 
 ### solfa music(200) 
 
