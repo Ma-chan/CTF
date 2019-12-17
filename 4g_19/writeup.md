@@ -37,13 +37,13 @@ hidden_message.exe: PE32 executable (GUI) Intel 80386, for MS Windows
 
 - OllydbgとIDAでファイルを開いてみる
 
-<img src="スクリーンショット 2019-12-17 16.59.39.png" alt="solfa_music">
+
 
 
 - main関数の前に
 breakpointを設定して,ひたすらF8でステップ実行すると,,,,
 
-
+<img src="スクリーンショット 2019-12-17 16.59.39.png" alt="get_flag">
 <img src="solfa.png" alt="solfa_music">
 <img src="solfa.png" alt="solfa_music">
 
