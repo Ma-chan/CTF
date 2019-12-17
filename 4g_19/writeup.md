@@ -30,8 +30,22 @@ flag{3x3cu74bl3_4nd_l1nk4bl3_f0rm47}
 .bss
 ```
 ## hidden message(300)
-widowsで実行できる形式の
+- file形式
+```
+hidden_message.exe: PE32 executable (GUI) Intel 80386, for MS Windows
+```
 
+- OllydbgとIDAでファイルを開いてみる
+
+<img src="solfa.png" alt="solfa_music">
+
+
+- main関数の前に
+breakpointを設定して,ひたすらF8でステップ実行すると,,,,
+
+
+<img src="solfa.png" alt="solfa_music">
+<img src="solfa.png" alt="solfa_music">
 
 ## Crypto
 
