@@ -36,12 +36,10 @@ hidden_message.exe: PE32 executable (GUI) Intel 80386, for MS Windows
 ```
 
 - OllydbgとIDAでファイルを開いてみる
+main関数の前にbreakpointを設定してみる
+<img src="スクリーンショット 2019-12-17 17.08.58.png" alt="set_breakpoint">
 
-
-
-
-- main関数の前に
-breakpointを設定して,ひたすらF8でステップ実行すると,,,,
+- ひたすらF8でステップ実行すると,,,,
 
 <img src="スクリーンショット 2019-12-17 16.59.39.png" alt="get_flag">
 <img src="スクリーンショット 2019-12-17 16.59.51.png" alt="This_is_flag">
