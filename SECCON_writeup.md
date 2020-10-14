@@ -9,6 +9,7 @@ OpenSSLを暗号化に用いており、OpenSSlの整数オーバーフローの
 
 以下は拡張子rubyのファイル.
 
+- rsa.rb
 ```ruby:rsa.rb
 
 require 'openssl'
@@ -39,6 +40,7 @@ OpenSSL::BN.rand(512).to_s.unpack1('H*').hex
 が脆弱性で、rand(512)で512bitの擬似乱数生成で1234を返したとすると、.to_sで文字列"1234"となり、.unpack1('H*')で16進数に変換されて、"31323334"となる.<br>
 .hexで
 
+- decoder.py
 ```decoder.py
 
 N = 13234306273608973531555502334446720401597326792644624514228362685813698571322410829494757436628326246629203126562441757712029708148508660279739210512110734001019285095467352938553972438629039005820507697493315650840705745518918873979766056584458077636454673830866061550714002346318865318536544606580475852690351622415519854730947773248376978689711597597169469401661488756669849772658771813742926651925442468141895198767553183304485662688033274567173210826233405235701905642383704395846192587563843422713499468379304400363773291993404144432403315463931374682824546730098380872658106314368520370995385913965019067624762624652495458399359096083188938802975032297056646831904294336374652136926975731836556951432035301855715375295216481079863945383657
@@ -75,7 +77,7 @@ print(bytes.fromhex("%x"%flag).decode())
 ## koharu
 
 
-
+- solve.sage
 ```solve.sage
 
 with open("output.txt") as f:
@@ -113,7 +115,7 @@ print(bytes.fromhex(hex(m)[2:]))
 
 ## urara
 
-
+- task.sage
 ```task.sage
 from flag import flag
 
@@ -153,7 +155,7 @@ print("c =", c)
 ## crypto01 
 今回のボス問、回答を読んでも理解し難い.
 
-
+- challenge.py
 ```challenge.py
 
 import sys
@@ -259,7 +261,7 @@ print("masked_flag = " ,masked_flag)
 print("ciphertexts = ", ciphertexts)
 
 ```
-
+- decrypto.py
 ```decrypt.py
 
 def decrypt(c, d, n):
@@ -345,3 +347,4 @@ print(bytes.fromhex(hex(masked_flag)[2:]))
 ## References
 - [SECCON 2020 Online CTF作問者writeup](https://furutsuki.hatenablog.com/entry/2020/10/11/172946)<br>
 - [SECCON 2020 Online CTF write-up](https://qiita.com/kusano_k/items/0ec2a09483eaa7b900d1)<br>
+- [crypto01の参考文献](https://nitaj.users.lmno.cnrs.fr/kmov1.pdf)
