@@ -4,7 +4,8 @@ Cryptoだけ<br>
 
 ## bifid 
 bifid cipher、古典暗号の換字式暗号の問題.<br>
-bifidでggればわかったかもしれない....<br>
+
+
 
 下記の文字列が記載された2つのtxtファイルが与えられる.<br>
 
