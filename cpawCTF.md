@@ -28,6 +28,10 @@ Ubuntuとかでflag出てくる。</br>
 ### Can you open this file?
 fileコマンドで拡張子を調べると、open_me: Composite Document File V2 Document, Little Endian, Os: Windowsとか出てくるので、open_me.docとかにして、Microsoft Wordとかで開く。すると、flagがみれる。
 
+### HTML
+
+答え　HTMLソース見ると、flagが見える。
+
 ### River 
 答え
 
