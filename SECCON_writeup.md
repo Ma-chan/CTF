@@ -1,5 +1,4 @@
 # SECCON 2020 write up
-授業の課題でwriteupを書く必要があるので、この度筆を、keyボードを叩く運びとなった.<br>
 Qiitaとかにまとめてある記事を、読んで理解した事を書いてるだけ.<br>
 
 ## this_is_rsa
