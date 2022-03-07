@@ -1,5 +1,6 @@
 # CpawCTFのwriteup
 前々からcpawCTFを解いていたが、文字に起こすことがなかったので、writeupを書いてみた。
+自分の覚書用。
 
 ### Test Problem
 - 問題
@@ -22,9 +23,10 @@ Ceaser暗号で3つ文字をシフトさせてflag </br>
 - 答え　</br>
 fileコマンドで拡張子を確認する。ELFファイルなので、linux系のOSで実行してみる。Debianで初め実行してダメだった笑 </br>
 chmodコマンドでファイル実行の許可を得てから、./exec_meで実行する。</br>
-Ubuntuとかでflag出てくる。
+Ubuntuとかでflag出てくる。</br>
+
 ### Can you open this file?
-fileコマンドで拡張子を調べると、open_me: Composite Document File V2 Document, Little Endian, Os: Windowsとか出てくるので、Windowsを起動してみる。
+fileコマンドで拡張子を調べると、open_me: Composite Document File V2 Document, Little Endian, Os: Windowsとか出てくるので、open_me.docとかにして、Microsoft Wordとかで開く。すると、flagがみれる。
 
 ### River 
 答え
