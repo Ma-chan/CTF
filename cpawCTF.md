@@ -1,4 +1,4 @@
-# CpawCTFのwriteup
+# CpawCTFのレベル1
 前々からcpawCTFを解いていたが、文字に起こすことがなかったので、writeupを書いてみた。
 自分の覚書用。
 
