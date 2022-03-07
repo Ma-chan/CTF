@@ -60,3 +60,6 @@ print(r)
 
 これで実行すればいい。
 
+### Hash Hash Hash
+- 答え Googleで検索して、sha1 decryptとか調べればflag出てくる。
+
