@@ -37,5 +37,8 @@ HTMLソース見ると、flagが見える。
 
 ### River 
 - 答え
+画像のGPS情報を確認する問題。Exif情報は画像に残っていることもあるので、Exif情報からGoogle Mapで場所を示してくれるサービスを適当に使って、場所特定。</br>
+Exif-GPSとか使えば、Google Mapですぐ示してくれるので楽。Google Mapに経度と緯度を入力して特定してもok
+
 
 
