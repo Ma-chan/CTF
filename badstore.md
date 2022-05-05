@@ -10,3 +10,4 @@ Kaliの中で、burpsuiteを起動させて、ブラウザのbadstoreへ脆弱�
 #### SQLI
 検索欄をクリックすると、NO items matchedと表示される。SQL文が表示され、いかにもSQLIが効きそうなので、試してみる。
 
+<p><img src="/img/sanma.gif" alt="サンマの塩焼き" /></p> 
