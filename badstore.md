@@ -1,4 +1,4 @@
-# BadStoreへの脆弱性診断
+# BadStoreへの脆弱性診断の練習
 - 大学院でburpsuiteを使っていたので、burpの拡張機能であるBadStoreの脆弱性診断をして、練習してみることにした。
 
 ### 環境
@@ -7,7 +7,10 @@ Kaliの中で、burpsuiteを起動させて、ブラウザのbadstoreへ脆弱�
 
 ### 発見した脆弱性
 
-#### SQLI
+- 検索欄にSQLI
 検索欄をクリックすると、NO items matchedと表示される。SQL文が表示され、いかにもSQLIが効きそうなので、試してみる。
 
-<p><img src="/img/sanma.gif" alt="サンマの塩焼き" /></p> 
+<p><img src="スクリーンショット 2022-05-05 18.05.07.png" alt="BadStore" /></p> 
+
+MySQLを使用していることが判明.SQL文を挿入すると、ログイン後に操作できる買い物ページに遷移した。
+<p><img src="スクリーンショット 2022-05-05 18.05.07.png" alt="BadStore" /></p> 
