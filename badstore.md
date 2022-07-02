@@ -100,3 +100,7 @@ PreparedStatement ps = con.preparedStatement(sql);
      }
 
 ```
+
+### 今後やりたいこと
+
+- ペンテスター向けの技術書を細々読んでいこうと思う。
