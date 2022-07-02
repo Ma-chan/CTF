@@ -66,3 +66,13 @@ X-XSS-ProtectionはXSSフィルタを設定するために使用されるもの�
 - Guestbookも同様にXSSが有効であり、Add Entryボタンを押すと、過去のコメントが読める。
 <p><img src="スクリーンショット 2022-07-02 9.45.01.png" alt="XSS" /></p>
 <p><img src="スクリーンショット 2022-07-02 9.46.08.png" alt="XSS" /></p>
+
+## 対処法
+---
+
+### SQLの静的プレースホルダ利用
+
+Prepared Statementを使う。バインド機構使う。
+
+### XSSのエスケープ処理・サニタイジング
+
