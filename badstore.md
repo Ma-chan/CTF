@@ -71,7 +71,30 @@ X-XSS-ProtectionはXSSフィルタを設定するために使用されるもの�
 
 ### SQLの静的プレースホルダ利用
 
-Prepared Statementを使う。バインド機構使う。
+Prepared Statementを使う。バインド機構使う。prepared statementを用いることで、静的なプレースホルダを使用することができ、あらかじめ">","<","/"などのスクリプトに関連する文字を避ける安全なsql文を使うことができる。
+
+```java
+
+String sql = “UPDATE bookinfo SET price= ? WHERE isbn= ?";
+
+PreparedStatement ps = con.preparedStatement(sql);
+
+```
 
 ### XSSのエスケープ処理・サニタイジング
 
+スクリプト文で使用される">","<","&"なんかを退けるためのメソッドを追加してやると、入力フォームでスクリプトがエスケープされ、文字列として解釈され無効になる。
+
+```java
+
+ private static String escape(String val) {
+       if (val == null) return "";
+       val = val.replaceAll("&", "& amp;");
+       val = val.replaceAll("<", "& lt;");
+       val = val.replaceAll(">", "& gt;");
+       val = val.replaceAll("\"", "&quot;");
+       val = val.replaceAll("'", "&apos;");
+       return val;
+     }
+
+```
