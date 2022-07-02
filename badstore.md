@@ -20,6 +20,7 @@
 
 ## 環境
 - Kali-Linux(Debian派生Linux)
+- OS macOS Mojave
 Kaliの中で、脆弱性診断ツールの拡張機能であるbadstoreを起動させて、脆弱性診断を行うことにした。
 <p><img src="スクリーンショット 2022-05-07 16.38.58.png" alt="BadStore_In_Kali" /></p> 
 
