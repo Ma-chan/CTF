@@ -22,9 +22,11 @@
 - Kali-Linux(Debian派生Linux)
 - OS macOS Mojave
 Kaliの中で、脆弱性診断ツールの拡張機能であるbadstoreを起動させて、脆弱性診断を行うことにした。
-<p><img src="スクリーンショット 2022-05-07 16.38.58.png" alt="BadStore_In_Kali" /></p> 
+<p><img src="スクリーンショット 2022-07-09 13.38.43.png" alt="BadStore_In_Kali" /></p> 
 
-## 発見した脆弱性
+## 事前調査
+
+- 攻撃を仕掛けていく前に、事前に狙えそうな脆弱性やアプリケーションの構成がどのようになっているのか調査する。
 
 #### Webの隠しコンテンツの調査
 
@@ -39,7 +41,7 @@ wsディレクトリ <br>
 
 <p><img src="スクリーンショット 2022-05-05 19.05.55.png" alt="SQLI_vulnueablity" /></p> 
 
-#### Niktoの実行結果
+#### niktoの実行結果
 - anti-clickjacking X-Frame-Options header is not present <br>
 
 クリックジャッキングの脆弱性が判明した。表示されたWebサイトとは別のWebサイトを透過させ、表面に見えているサイトのボタンをクリックさせ、別のサイトのボタンを押させる攻撃への脆弱性が存在することがわかった
@@ -49,6 +51,14 @@ wsディレクトリ <br>
 X-XSS-ProtectionはXSSフィルタを設定するために使用されるもの。X-XSS-Protectionが設定されていない。XSSに対する脆弱性が存在しそう。
 
 <p><img src="スクリーンショット 2022-05-05 19.06.43.png" alt="SQLI_vulnueablity" /></p> 
+
+#### dirbの実行結果　
+
+- 隠しコンテンツの列挙
+
+<p><img src="スクリーンショット 2022-07-09 13.49.08.png" alt="SQLI_vulnueablity" /></p> 
+
+## 攻撃
 
 #### SQLI
 - 検索欄をクリックすると、NO items matchedと表示される。SQL文が表示され、いかにもSQLIが効きそうなので、試してみる。
